@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>953</width>
-    <height>453</height>
+    <width>519</width>
+    <height>614</height>
    </rect>
   </property>
   <property name="sizePolicy">
@@ -178,6 +178,9 @@
              </property>
              <item>
               <widget class="QPushButton" name="home_btn">
+               <property name="enabled">
+                <bool>true</bool>
+               </property>
                <property name="toolTip">
                 <string>Home</string>
                </property>
@@ -366,6 +369,9 @@
     </item>
     <item>
      <widget class="QWidget" name="Main_Body_container" native="true">
+      <property name="enabled">
+       <bool>true</bool>
+      </property>
       <property name="sizePolicy">
        <sizepolicy hsizetype="Minimum" vsizetype="Preferred">
         <horstretch>0</horstretch>
